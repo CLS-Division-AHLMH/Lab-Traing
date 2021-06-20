@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 20%;
+  width: 20%;
+  pointer-events: none;
+  /* border: 1px solid red; */
+  /* background-color: #61dafb; */
+  border-radius: 2rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #d8d8d3; */
+  min-height: 25vh;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-end;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* border: 1px solid red; */
+  /* background: url("https://images.unsplash.com/photo-1437209484568-e63b90a34f8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1966&q=80") no-repeat center center fixed; */
+  margin-top: 20px;;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.headerContent{
+  width: 50rem;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  /* border: 1px solid red; */
+}
+.lmh{
+  color: rgb(5, 171, 221);
+  /* border: 1px solid red; */
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.ltm{
+  color: rgb(201, 110, 5);
+  /* border: 1px solid red; */
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.lodiLogo{
+  background-color: rgb(255, 145, 0);
+  height: 100px;
+  width: 100px;
+  border: 1px solid rgb(255, 145, 0);
+}
+.fas{
+  color: rgb(28, 141, 6);
+  /* border: 1px solid red; */
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-size: 150px;
+}
